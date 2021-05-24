@@ -1,0 +1,26 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: var(--main-border);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting span:first-child {
+  margin-right: 20px;
+}
+.settigs_setting-column {
+  display: flex;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+© 2021 GitHub, Inc.

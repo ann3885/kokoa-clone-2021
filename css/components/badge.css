@@ -1,0 +1,46 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.badgedot {
+  display: block;
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.holebadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  color: tomato;
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid tomato;
+  padding-left: 1px;
+  padding-top: 1px;
+  box-sizing: border-box;
+}
+.holebadge--black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid var(--black);
+  box-sizing: border-box;
+}
